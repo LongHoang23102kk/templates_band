@@ -16,9 +16,6 @@
         .contact-info {
             line-height: 2;
         }
-        #footer .social-list {
-            font-size: 40px;
-        }
         #footer .social-list a {
             margin: 0 8px;
         }
@@ -29,7 +26,11 @@
     }
     /* Tablet */
     
-    @media (min-width: 740px) and (max-width: 1023px) {}
+    @media (min-width: 740px) and (max-width: 1023px) {
+        #footer .social-list {
+            font-size: 40px;
+        }
+    }
     /* Mobile */
     
     @media (max-width: 740px) {
@@ -71,5 +72,8 @@
         }
         .contact-form {
             margin-top: 32px;
+        }
+        #footer .social-list {
+            font-size: 30px;
         }
     }
