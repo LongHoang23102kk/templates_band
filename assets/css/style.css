@@ -91,6 +91,8 @@ html {
     margin-top: 15px;
     border: none;
     text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -197,7 +199,6 @@ html {
     padding-top: 50%;
     background: url('../img/slider/slider1.jpg') top center / cover no-repeat;
     position: relative;
-    z-index: -1;
 }
 
 #slider .text-content {
@@ -216,6 +217,7 @@ html {
 #slider .text-description {
     margin-top: 25px;
     font-size: 15px;
+    text-shadow: 0 0 2px #333;
 }
 
 #content .content-section {
