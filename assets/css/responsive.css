@@ -50,6 +50,9 @@
         #header .mobile-menu-btn {
             display: block;
         }
+        #slider .text-content {
+            display: none;
+        }
         #nav {
             display: block;
         }
